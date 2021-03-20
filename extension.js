@@ -44,7 +44,7 @@ function activate(context) {
 			const inputText = doc.getText(ran);
 			const prefix = inputText.replace(/\.(clog|cwarn|cerror|cinfo|cdir)/, '');
 			// 获取当前行的偏移量
-			const [_, type] = inputText.split('.');
+			const type = inputText.split('.')?.pop();
 			const idx = doc.lineAt(line).firstNonWhitespaceCharacterIndex;
 			// 格式化新文本
 			const map = {
