@@ -8,10 +8,14 @@
 ##### 安装easy-console
 ##### 输入脚本
 > aa.clog ===> console.log('my-log aa', aa)
+
 > aa.cerror ===> console.error('my-log aa', aa)
+
 > aa.cwarn ===> console.warn('my-log aa', aa)
+
 > aa.cdir ===> console.dir('my-log aa', aa)
 ##### shift+c
 > eg: aa.clog
+
 > 按下shift+c 即可快速生成日志脚本
 
