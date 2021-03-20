@@ -19,3 +19,5 @@
 
 > 按下shift+c 即可快速生成日志脚本
 
+![easy-console](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/vscode_extension/easy-console.gif)
+

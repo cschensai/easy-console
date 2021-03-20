@@ -2,7 +2,7 @@
   "name": "easy-console",
 	"displayName": "easy-console",
 	"description": "简化console日志命令脚本",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "chensai-lick-dog",
 	"engines": {
 		"vscode": "^1.54.0"
